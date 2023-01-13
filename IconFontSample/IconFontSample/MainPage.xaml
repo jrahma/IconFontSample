@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="IconFontSample.MainPage">
+    <Grid Margin="10,0,10,40" ColumnSpacing="0" RowSpacing="0" HorizontalOptions="FillAndExpand">
+        <Border Padding="20">
+        <Border.StrokeShape>
+            <RoundRectangle CornerRadius="0,40,40,0" Stroke="{AppThemeBinding Light={StaticResource ProverbBorderLight}, Dark={StaticResource ProverbBorderDark}}" />
+        </Border.StrokeShape>
+            <Label Text="Test message comes here" Margin="0,0,0,40" FontFamily="MarheyRegular" FontSize="{DynamicResource LabelFontSize}" />
+        </Border>
+
+        <Image x:Name="ImagePlay" WidthRequest="60" HeightRequest="60" Margin="0,0,0,-30" VerticalOptions="End">
+        <Image.Source>
+            <FontImageSource FontFamily="FontSolid" Glyph="{StaticResource IconCirclePlay}" Color="{AppThemeBinding Light={StaticResource PlayIconLight}, Dark={StaticResource PlayIconDark}}" Size="40" />
+        </Image.Source>
+        </Image>
+    </Grid>
+</ContentPage>
+

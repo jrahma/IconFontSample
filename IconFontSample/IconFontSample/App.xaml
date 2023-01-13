@@ -1,0 +1,38 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:IconFontSample"
+             x:Class="IconFontSample.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <x:String x:Key="IconSearch">&#xf002;</x:String>
+            <x:String x:Key="IconClear">&#xf00d;</x:String>
+
+            <x:String x:Key="IconDisplayAuto">&#xf0e7;</x:String>
+            <x:String x:Key="IconDisplayDark">&#xf186;</x:String>
+            <x:String x:Key="IconDisplayLight">&#xf185;</x:String>
+
+            <x:String x:Key="IconLike">&#xf005;</x:String>
+            <x:String x:Key="IconShare">&#xf14d;</x:String>
+
+            <x:String x:Key="IconPlay">&#xf04b;</x:String>
+            <x:String x:Key="IconPause">&#xf04c;</x:String>
+
+            <x:String x:Key="IconCirclePlay">&#xf144;</x:String>
+            <x:String x:Key="IconCirclePause">&#xf28b;</x:String>
+
+            <x:Int32 x:Key="LabelFontSize">25</x:Int32>
+
+            <x:String x:Key="IconAdd">&#x2b;</x:String>
+            <x:String x:Key="IconClose">&#xf107;</x:String>
+
+            <x:String x:Key="IconSettings">&#xf0c9;</x:String>
+
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
+                <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
+
